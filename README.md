@@ -1,25 +1,11 @@
 [![Review Assignment Due Date](https://classroom.github.com/assets/deadline-readme-button-24ddc0f5d75046c5622901739e7c5dd533143b0c8e959d652212380cedb1ea36.svg)](https://classroom.github.com/a/YyUO0xtt)
 # COMP2150  - Level Design Document
 ### Name: [Benjamin Fitzgerald]
-### Student number: [your student number] 
-
-This document discusses and reflects on the design of your platformer level for the Level Design assessment. It should be 1500 words. Make sure you delete this and all other instructional text throughout the document before checking your word count prior to submission. Hint: You can check word count by copying this text into a Word or Google doc.
-
-Your document must include images. To insert an image into your documentation, place it in the "DocImages" folder in this repo, then place the below text where you want the image to appear:
-
-```
-![Place any alt text here](DocImages/<IMAGE NAME AND FILE EXTENSION>)
-```
-
-Example:
-
-![This is the alt text for an image!](DocImages/exampleimage.png)
+### Student number: [47631082] 
 
 ## 1. Player Experience (~700 words)
-Outline and justify how your level design facilitates the core player experience goals outlined in the assignment spec. Each section should be supported by specific examples and screenshots of your game encounters that highlight design choices made to facilitate that particular experience.
 
 ### 1.1. Discovery
-//What does the player learn? How does your encounter and broader level design facilitate learning in a way that follows good design practice?
 
 The player learns to use the provided weapons and interact with the features of the level. The level allows the player to learn by first introducing mechanics in a safe zone before they are used in encounters where they could take damage. This means that the player can first use them without being under pressure
 An example of this is the staff pickup, which the player must use to break a destructible pillar before using it to face enemies. This allows the player to understand this new mechanic they’ve been introduced to and then face a challenge using it.
@@ -31,22 +17,18 @@ Another example is moving platforms. The first is used simply as an elevator, no
 ![Screenshot 2](DocImages/Screenshot2.png)
 
 ### 1.2. Drama
-//What is the intensity curve? How does your design facilitate increasing yet modulating intensity, with moments of tension and relief? 
-
-The intensity of this game is carefully plotted to have moments where the player has to be careful but also calm moments in between. The intensity curve of this game is balanced through arrangement of encounters. 
+The intensity of this game is carefully plotted to have moments where the player has to be careful but also calm moments in between. The intensity curve of this game is balanced through arrangement of easy and hard encounters. 
 An example of an intense encounter is where the player must ride a moving platform and crouch to avoid being knocked off by hanging terrain. Seemly simple at first but then the player realises that they won’t fit under the gap they must react quickly or get knocked down into the spikes. However, when they pass this obstacle a second time, they will already know how to avoid this.
 
 ![Screenshot 3](DocImages/Screenshot3.png)
 
-moment where the player has to run and clear other obstacles quickly in order to avoid taking damage but at the end is a safe, connective space with a checkpoint where the player can catch their breath. 
+An even better example of this is the moving spikes encounter in scene 3. This shifts from a quite corridor to a high paced moment where the player has to run and clear other obstacles quickly in order to avoid taking damage but at the end is a safe, connective space with a checkpoint where the player can catch their breath. 
 
 ![Screenshot 4](DocImages/Screenshot9.png)
 
 ![Screenshot 5](DocImages/Screenshot11.png)
 
 ### 1.3. Challenge
-//What are the main challenges? How have you designed and balanced these challenges to control the difficulty curve and keep the player in the flow channel?
-
 The main challenges of this game were overcoming obstacles and finding the keys. These challenges are positioned so that the player does not have to overcome them back-to-back, and the encounters that they must repeat are easier the second time around.
 One of the toughest challenges I designed was an encounter where the player had to land on a narrow space between two pools of acid. This was frustrating as it was difficult to land on and kept forcing the player to return to the last checkpoint. I widened this a little to maintain flow.
 
@@ -61,8 +43,6 @@ Another example is the final challenge where players have to jump across a serie
 ![Screenshot 8](DocImages/Screenshot12.png)
 
 ### 1.4. Exploration
-//How does your level design facilitate autonomy and invite the player to explore? How do your aesthetic and layout choices create distinct and memorable spaces and/or places?
-
 The game invites the player to explore by including more than one route through the level. Even though there is a particular order the player has to complete the encounters, they can check out areas to the side to find health pickups, as well as backtrack through certain parts of the level. I have created distinct spaces by including unique backgrounds that the player can’t interact with but are likely to notice and are memorable.
 An example of inviting the player to explore is the path between sections 2 and 3. The player can choose to investigate either section first, but they cannot go further than the first encounter of section 3 until they have obtained the gun by clearing section 2. There is also a scene in section 2 where the player has to work out if the way forward is up a moving platform, or down a passage to the right.
 
@@ -70,11 +50,6 @@ An example of inviting the player to explore is the path between sections 2 and 
 
 
 ## 2. Core Gameplay (~400 words)
-A section on Core Gameplay, where storyboards are used to outline how you introduce the player to each of the required gameplay elements in the first section of the game. Storyboards should follow the format provided in lectures.
-
-Storyboards can be combined when multiple mechanics are introduced within a single encounter. Each section should include a sentence or two to briefly justify why you chose to introduce the mechanic/s to the player in that sequence.
-
-You should restructure the headings below to match the order they appear in your level.
 
 ### 2.1. Spikes
 These are used as the first obstacle to introduce the jumping mechanic. I chose here because they are the simplest obstacle to begin with.
@@ -147,10 +122,7 @@ At the end of section 2 the player will pick up the gun next to the key and use 
 
 
 ## 3. Spatiotemporal Design
-A section on Spatiotemporal Design, which includes your molecule diagram and annotated level maps (one for each main section of your level). These diagrams may be made digitally or by hand, but must not be created from screenshots of your game. The annotated level maps should show the structure you intend to build, included game elements, and the path the player is expected to take through the level. Examples of these diagrams are included in the level design lectures.
 
-No additional words are necessary for this section (any words should only be within your images/diagrams).
- 
 ### 3.1. Molecule Diagram
 ![Molecule Diagram](DocImages/Molecule_diagram.png)
 ### 3.2. Level Map – Section 1
@@ -159,11 +131,8 @@ No additional words are necessary for this section (any words should only be wit
 ![Level Map Section 2](DocImages/LevelMapSection2.png)
 ### 3.4.	Level Map – Section 3
 ![Level Map Section 3](DocImages/LevelMapSection3.png)
+
 ## 4. Iterative Design (~400 words)
-//Reflect on how iterative design helped to improve your level. Additional prototypes and design artefacts should be included to demonstrate that you followed an iterative design process (e.g. pictures of paper prototypes, early grey-boxed maps, additional storyboards of later gameplay sequences, etc.). You can also use this section to justify design changes made in Unity after you drew your level design maps shown in section 3. 
-
-//You should conclude by highlighting a specific example of an encounter, or another aspect of your level design, that could be improved through further iterative design.
-
 The iterative design process was used throughout implementing the game. Every encounter was prototyped and tested individually before adding it to the molecule diagram and creating the whole level. This helped by allowing me to determine what ideas worked with the given mechanics in addition to what was too hard and frustrating for the player and what was not. It also helped me come up with ideas for new encounters to fill in the blanks of my design. 
 The molecule diagram was also developed iteratively as new ideas were developed, and level design concepts were learnt and applied. 
 For example, below is a draft for the second encounter in section 3. It involved activating bridges which dropped pushable block onto the acid for the player to use as stepping stones, but this did not work when I attempted to implement it in Unity because the switch was too far away and the roof was too low for the player to be able to see the blocks and have enough jumping room. I instead compromised by using a single moving platform in the final design.
@@ -183,23 +152,6 @@ An encounter that could further be improved using iterative design is the moving
 
 
 ## Generative AI Use Acknowledgement
-
-Use the below table to indicate any Generative AI or writing assistance tools used in creating your document. Please be honest and thorough in your reporting, as this will allow us to give you the marks you have earnt. Place any drafts or other evidence inside this repository. This form and related evidence do not count to your word count.
-An example has been included. Please replace this with any actual tools, and add more as necessary.
-
-
-### Tool Used: ChatGPT
-**Nature of Use** Finding relevant design theory.
-
-**Evidence Attached?** Screenshot of ChatGPT conversation included in the folder "GenAI" in this repo.
-
-**Additional Notes:** I used ChatGPT to try and find some more relevant design theory that I could apply to my game. After googling them, however, I found most of them were inaccurate, and some didn't exist. One theory mentioned, however, was useful, and I've incorporated it into my work.
-
-### Tool Used: Example
-**Nature of Use** Example Text
-
-**Evidence Attached?** Example Text
-
-**Additional Notes:** Example Text
+None used
 
 
